@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "debate clubs"
+version = "0.1.0"
+description = ""
+authors = ["Timofei Balduev <balduev.desco@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^3.1.1"
+python-dotenv = "^1.0.0"
+aiosqlite = ">=0.19.0,<0.20.0"
+aioschedule = "^0.5.2"
+apscheduler = "^3.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
